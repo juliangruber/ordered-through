@@ -1,7 +1,7 @@
 # ordered-through
 
-Through stream that applies async functions to chunks and emits them in order,
-no matter how long each operation takes.
+Transform streams with async functions, preserving order, no matter how long
+each operation takes.
 
 ## Usage
 

@@ -1,6 +1,6 @@
 {
   "name": "ordered-through",
-  "description": "Through stream that applies async functions to chunks and emits them in order",
+  "description": "Transform streams with async functions, preserving order",
   "version": "0.0.0",
   "repository": {
     "type": "git",
