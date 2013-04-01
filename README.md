@@ -1,4 +1,3 @@
-
 # ordered-through
 
 Through stream that applies async functions to chunks and emits them in order,
@@ -21,6 +20,21 @@ ordered.on('data', console.log);
 
 for (var i = 0; i < 10; i++) ordered.write(i);
 ordered.end();
+```
+
+output:
+
+```
+Chunk: 0
+Chunk: 1
+Chunk: 2
+Chunk: 3
+Chunk: 4
+Chunk: 5
+Chunk: 6
+Chunk: 7
+Chunk: 8
+Chunk: 9
 ```
 
 ## API
