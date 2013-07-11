@@ -1,7 +1,7 @@
 {
   "name": "ordered-through",
   "description": "Transform streams with async functions, preserving order",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/ordered-through.git"
@@ -14,7 +14,7 @@
   "dependencies": {
     "duplexer": "~0.1.0",
     "through": "~2.2.7",
-    "ordered-emitter": "~0.1.0"
+    "ordered-emitter": "git://github.com/juliangruber/node-ordered-emitter.git#inherits"
   },
   "devDependencies": {
     "tap": "*"
