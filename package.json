@@ -17,7 +17,7 @@
     "ordered-emitter": "~1.0.0"
   },
   "devDependencies": {
-    "tap": "*"
+    "tap": ">=9.0.1"
   },
   "keywords": [
     "stream",
